@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Login from "./components/UserLogin.vue";
 import Registration from "./components/UserRegistration.vue";
 import UsersList from "./components/admin/UsersList.vue";
@@ -97,7 +97,7 @@ const routes = [
 
 //Вот это нужно для экспорта в другие файлики
 export const router = createRouter({
-  history: createWebHistory("/GameGear/"),
+  history: createWebHashHistory("/GameGear/"),
   routes
 });
 

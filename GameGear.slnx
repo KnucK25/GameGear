@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="gamegear.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

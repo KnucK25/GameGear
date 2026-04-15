@@ -29,7 +29,7 @@
     <div class="container product-page__inner">
 
       <div class="product-page__image">
-        <img :src="product.image || '/img/placeholder.jpg'"  alt="IMG" />
+        <img :src="product.image || 'img/placeholder.jpg'"  alt="IMG" />
       </div>
 
       <div class="product-page__info">
