@@ -29,7 +29,7 @@
     <div class="container product-page__inner">
 
       <div class="product-page__image">
-        <img :src="product.image || 'img/placeholder.jpg'"  alt="IMG" />
+        <img :src="product.image || '/img/placeholder.jpg'"  alt="IMG" />
       </div>
 
       <div class="product-page__info">
@@ -39,11 +39,7 @@
           {{ product.price.toLocaleString() }} ₽
         </p>
 
-        <button class="btn btn--large">
-          Купить
-        </button>
-
-        <button class="btn btn--full" @click.prevent="handleAdd(product)">
+        <button class="btn btn--large" @click.prevent="handleAdd(product)">
           В корзину
         </button>
 

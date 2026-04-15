@@ -64,7 +64,7 @@
       <div v-if="filteredGoods.length" class="products__grid">
         <router-link v-for="product in paginatedFilteredGoods" class="product-card" :to="{ name: 'ProductPage', params: { id: product.id } }">
           <div class="product-card__image">
-            <img :src="product.image || 'img/placeholder.jpg'" alt="IMG" />
+            <img :src="product.image || '/img/placeholder.jpg'" alt="IMG" />
           </div>
 
           <h3>{{ product.name }}</h3>
