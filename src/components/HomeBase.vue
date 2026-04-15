@@ -65,7 +65,7 @@
           с гарантией качества.
         </p>
       </div>
-      <div class="about__image"><img :src="img/img5.png" alt="IMG" /></div>
+      <div class="about__image"><img :src="/img/img5.png" alt="IMG" /></div>
     </div>
   </section>
 
