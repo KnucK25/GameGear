@@ -99,7 +99,7 @@ function addGood(product) {
   if (!product.name || !product.price) return
 
   if (!product.image) {
-    product.image = "/img/placeholder.jpg"
+    product.image = "img/placeholder.jpg"
   }
 
   product.id = generateId()
